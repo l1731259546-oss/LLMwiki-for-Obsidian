@@ -19,7 +19,8 @@
 开始之前，确保已安装以下必要环境：
 
 | 依赖 | 版本要求 | 安装命令 |
-|------|---------|---------|[Node.js](https://nodejs.org/) | >= 18 | 官网下载或 `nvm install 20` |
+|------|---------|----------|
+| [Node.js](https://nodejs.org/) | >= 18 | 官网下载或 `nvm install 20` |
 | [qmd](https://github.com/tobi/qmd) | 最新 | `npm install -g @tobi/qmd` |
 | [Obsidian](https://obsidian.md/) | 最新 | 官网下载 |
 
