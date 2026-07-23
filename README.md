@@ -4,6 +4,14 @@
 
 一个基于 Andrej Karpathy 的 LLM Wiki 思路的个人知识库管理技能，帮助你在 Obsidian 中搭建和维护 **三层架构**（Raw / Wiki / Outputs）的知识系统。
 
+## 使用简述（小白不清楚怎么用agent skill的，详细的流程在下面）
+建议先安装obsidian客户端，和带读取写入工具的agent(基本都带,比如codex和claude code这些)。
+这样你的agent在装上skill以后，你仅仅需要手动做两步就可以完成资料摄入wiki知识库，并可以在obsidian直观看见你的wiki树状图动态的一点一线的长出来。
+    1. 手动把资料拖进指定文件夹
+    2. 跟agent说创建wiki结构并摄入刚手动拖进去的文件
+        - 提示词里指令显性调用skill就更加有约束力度
+        - 愿意折腾的还可以在装些obsidianCLI的skill，如果你装了的话你的agent可以直接通过CLI交互obsidian客户端
+
 ## ✨ 特性
 
 - 🏗️ **三层架构**：Raw（人类所有，只读）→ Wiki（LLM 编译层）→ Outputs（LLM 输出）
@@ -238,14 +246,7 @@ LLMwiki-for-Obsidian/
 - [qmd](https://github.com/tobi/qmd) - 快速 Markdown 索引和查询工具
 - [Andrej Karpathy's LLM Wiki](https://karpathy.ai/) - 设计思路来源
 
-## 📝 更新日志
 
-### v1.0.0 (2026-07-23)
-- 初始版本发布
-- 支持 8 个核心操作：create-vault / ingest / query / reflect / lint / lint_check / merge / add-question
-- 9 项健康检查
-- 跨语言重复检测
-- 模块化检查器架构
 
 ## 📄 许可证
 
